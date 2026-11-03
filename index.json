@@ -1,4 +1,41 @@
 {
   "schema_version": 1,
-  "plugins": []
+  "plugins": [
+    {
+      "id": "home-assistant",
+      "name": "Home Assistant",
+      "version": "1.0.0",
+      "description": "Ruft Home-Assistant-Services (Licht, Szene, Skript, ...) per WebSocket-API auf und synchronisiert Entitätszustände in Echtzeit.",
+      "author": "Kai Luene",
+      "min_app_version": "1.0.0",
+      "min_python": "3.10",
+      "download_url": "https://github.com/kahel-soft/ApexDeck-Plugins/releases/download/home-assistant-v1.0.0/home-assistant-1.0.0.zip",
+      "sha256": "905a6bbc1ac676f45f8ea22845b4ff1e864b8e664e235778fe4a5cfe6b28ad3b",
+      "size": 196932
+    },
+    {
+      "id": "obs-studio",
+      "name": "OBS Studio",
+      "version": "1.1.0",
+      "description": "Steuert OBS Studio per WebSocket v5 (Szenenwechsel, Stream/Aufnahme, Audio-Mute) und synchronisiert den Live-Status in Echtzeit auf die physischen Tasten.",
+      "author": "Kai Luene",
+      "min_app_version": "1.0.0",
+      "min_python": "3.10",
+      "download_url": "https://github.com/kahel-soft/ApexDeck-Plugins/releases/download/obs-studio-v1.1.0/obs-studio-1.1.0.zip",
+      "sha256": "9552cb4cb1e508dba791b2fa584a4d0058630aebddaf18a44a96ae667c36eecc",
+      "size": 185285
+    },
+    {
+      "id": "teamspeak",
+      "name": "TeamSpeak",
+      "version": "1.0.0",
+      "description": "Liefert aktive Sprecher und Kanalmitglieder des lokalen TeamSpeak-5/6-Clients als Dashboard-Variablen. Einmalige Freigabe der Remote App im TeamSpeak-Client nötig.",
+      "author": "Kai Luene",
+      "min_app_version": "1.0.0",
+      "min_python": "3.10",
+      "download_url": "https://github.com/kahel-soft/ApexDeck-Plugins/releases/download/teamspeak-v1.0.0/teamspeak-1.0.0.zip",
+      "sha256": "476c3e22a8ee7fd770904af4e5c592b9747c6fa104c42b826d9e14e9c9c10e7d",
+      "size": 191608
+    }
+  ]
 }
